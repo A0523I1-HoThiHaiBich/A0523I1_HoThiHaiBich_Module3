@@ -1,0 +1,49 @@
+body{
+    font-family: Arial;
+}
+#menu{
+    padding: 0px;
+    margin: 0px;
+    height: 30px;
+    background-color: cadetblue;
+    border: 1px solid #CDCDCD;
+}
+#menu ul, #menu li{
+    padding: 0px;
+    margin: 0px;
+
+}
+#menu li{
+    position: relative;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+#menu li a{
+    width:100px;
+    height: 30px;
+    display: block;;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    background-color: cadetblue;
+    color: white;
+}
+#menu ul ul li a{
+    width: 200px;
+    text-align: left;
+    padding-left: 0px;
+}
+#menu li a:hover{
+    background-color: red;
+}
+#menu ul ul{
+    position: absolute;
+    top:30px;
+    left:0px;
+    visibility: hidden;
+}
+#menu ul li:hover ul{
+    visibility: visible;
+}
